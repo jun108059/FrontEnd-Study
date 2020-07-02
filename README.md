@@ -2,7 +2,7 @@
 
 ### HTML
 
-HTML 기초 - Web Basic 
+HTML 기초 - Web Basic  
 HTML 응용
 
 ---
