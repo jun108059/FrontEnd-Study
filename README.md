@@ -1,11 +1,12 @@
-# 🌐 FrontEnd-Study
+# 🌐 Web-Study
 
-### 4월 28일
+### HTML
 
 HTML 기초 - Web Basic 
+HTML 응용
 
 ---
 
-### 5월 19일
+### PHP
 
-HTML 응용
+PHP 개요
