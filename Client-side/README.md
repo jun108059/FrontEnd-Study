@@ -18,11 +18,15 @@
 
 실습하고 정리한 [pdf](1.w3school-example/HTML-CSS-JavaScript.pdf)
 
+![img](img/result(1).PNG)
+
+
 ---
 
 ### 2️⃣ 소개 page 제작하기
 
 정리한 [pdf](2.introduce-me-site/Introduce-WebPage.pdf)
 
+![img](img/result(2).PNG)
 
 ---
