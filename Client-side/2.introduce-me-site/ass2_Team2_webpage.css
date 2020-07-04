@@ -1,0 +1,119 @@
+#map {
+        height: 400px;
+        width: 500px;
+}
+#team  {
+    color : Lavender;
+    font-size : 25px;
+    text-align: center;
+}
+#photo {
+    margin-left:15.5%;
+}
+hr.style-seven {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+#my_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.my_li a {
+    display: block;
+    color: white;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+.my_li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+.main_div   {
+    margin-left:15.3%;
+    background : lavender;
+    border: 3px solid white;
+    padding: 10px;
+    height: auto; min-height: 100px;
+    overflow: auto
+}
+.main_div2   {
+    margin-left:15.3%;
+    padding: 10px;
+    height: 1000px;
+    min-height: 100px;
+    overflow: auto
+}
+.sub_div    {
+    display : inline-block;
+    color : white;
+    padding : 50px
+    margin-right:10px;
+    margin-left:10px;
+}
+.sub_div2    {
+    display : inline-block;
+    margin-left:16%;
+    padding : 50px
+    margin-right:10px;
+    margin-left:10px;
+}
+body {
+    background: #483D8B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #483D8B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #483D8B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: url('cursor.png'), auto;
+}
+.key{
+    display : inline-block;
+    color: black;
+    float:left;
+    margin-right:10px;
+}
+.value{
+    display : inline-block;
+    color: navy;
+    float:left;
+    margin-right:10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: midnightblue;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.if{
+    margin-left:15%;
+}
+

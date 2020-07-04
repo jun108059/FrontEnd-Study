@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEdRpEBg7GQmvIODvbnG3T7ZvI4FewGiY&callback=initMap">
+    </script>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="ass2_Team2_webpage.js"></script>
+    <link rel="stylesheet" href="ass2_Team2_webpage.css">
+    <meta charset="UTF-8">
+    <title>Team2_WebPage</title>
+</head>
+<body>
+<div id="petalCanvas" style="position:fixed;top:0;z-index:999;height:0;overflow:visible;">
+
+    <span style="position:absolute;"><img src="1.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="1.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="1.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="1.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="1.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="1.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="1.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="1.png" width="30" height="30"></span>
+
+    <span style="position:absolute;"><img src="2.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="2.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="2.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="2.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="2.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="2.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="2.png" width="30" height="30"></span>
+    <span style="position:absolute;"><img src="2.png" width="30" height="30"></span>
+ </div>
+<audio controls>
+    <source src="music.ogg" type="audio/ogg">
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+<h3 id = "team" onmouseover="myMouseOver()" onmouseout="myMouseOut()">2팀 (김수빈 / 박영준)</h3>
+<hr class = "style-seven">
+<ul id = "my_ul">
+  <li class = "my_li"><a href="#team">Introduce our Team</a></li>
+  <li class = "my_li"><a href="#rmap">Map</a></li>
+  <li class = "my_li"><a href="#video">Video</a></li>
+  <li class = "my_li"><a onclick = "testAlertBox()">팝업창 띄우기</a></li>
+</ul>
+<div>
+    <img id="photo"/>
+</div>
+
+<div class ="main_div" >
+    <div class="sub_div">
+        <ul>
+            <li><b><div class = "key">이름</div></b><div class = "value"> 김수빈</div></li>
+            <li><b><div class = "key">좋아하는음식</div></b><div class = "value"> 딸기</div></li>
+            <li><b><div class = "key">좋아하는장소</div></b><div class = "value"> 집</div></li>
+        </ul>
+    </div>
+    <div class="sub_div">
+        <ul>
+            <li><b><div class = "key">이름</div></b><div class = "value"> 박영준</div></li>
+            <li><b><div class = "key">좋아하는음식</div></b><div class = "value"> 초밥</div></li>
+            <li><b><div class = "key">좋아하는장소</div></b><div class = "value"> 공원</div></li>
+        </ul>
+    </div>
+</div>
+<div class = "main_div2">
+    <div class ="sub_div">
+        <h3 id="rmap">Google Map</h3>
+        <div id="map"></div>
+        <div class = "dropdown"  >
+            <span><h3>위도 경도 알아보기</h3></span>
+        <div class="dropdown-content"><p>한국외국어대학교 글로벌캠퍼스 공대 <br>위도 : 37.337508, 경도 : 127.267755</p></div>
+    </div>
+    </div>
+    <div class ="sub_div">
+        <h3 id="video">동영상 삽입</h3>
+        <div><iframe  width="640" height="400" src="https://www.youtube.com/embed/yx-ctIqpIW4"></iframe></div>
+        <a href = "http://www.youtube.com">더보기</a>
+    </div>
+</div>
+
+</body>
+</html>
+
