@@ -1,0 +1,12 @@
+body {
+    background-color: khaki;
+}
+h1 {
+    color: salmon; 
+    font-family: "나눔고딕";
+}
+p {
+    color: darkcyan; 
+    font-family: "나눔고딕";
+    font-weight: bold;
+}
