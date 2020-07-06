@@ -34,3 +34,18 @@
   - Bitnami 활용
   - php.ini 설정
   - 로그 기록 확인하기(Apache logs)
+- [PHP 함수](PHP/3.PHP함수.md)
+  - function 개요(정의 & 호출)
+  - 입력과 출력(argument & return)
+- [PHP 배열](PHP/4.PHP배열.md)
+  - array 선언
+  - 배열에서 반복문과 조건문을 활용
+  - 배열의 데이터 삽입/삭제
+  - 배열 정렬
+  - 연관 배열(associative array)
+  - foreach를 활용한 접근
+- [PHP include와 namespace](PHP/5.PHP-include&namespace.md)
+  - include 개념
+  - require과 include, _once의 차이
+  - namespace 개념
+  - namespace 활용 방법
